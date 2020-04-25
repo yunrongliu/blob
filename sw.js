@@ -24,7 +24,7 @@ self.addEventListener('fetch',(ev)=> {
         return response
       }
 
-      return fetch(event.request)
+      return fetch(ev.request)
     })
   )
 })

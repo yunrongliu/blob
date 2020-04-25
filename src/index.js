@@ -7,7 +7,7 @@ function test (name='cc') {
 
 if(navigator.serviceWorker) {
   window.addEventListener('DOMContentLoaded',()=> {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('../sw.js')
   })
 }
 
